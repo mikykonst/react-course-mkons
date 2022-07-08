@@ -1,0 +1,37 @@
+{
+  "compilerOptions": {
+    "paths": {
+      "*":["types/*"],
+      "@/*":["src/*"]
+    },
+    "baseUrl":".",
+    "target":"es6",
+    "module":"es2015",
+    "moduleResolution":"node",
+    "inlineSourceMap":true,
+    "allowSyntheticDefaultImports":true,
+    "esModuleInterop":true,
+    "jsx":"react",
+    "strict":false,
+    "noImplicitAny":true,
+    "strictNullChecks":true,
+    "strictFunctionTypes":true,
+    "strictPropertyInitialization":true,
+    "noImplicitThis":true,
+    "alwaysStrict":true,
+    "noUnusedLocals":false,
+    "noUnusedParameters":false,
+    "noImplicitReturns":true,
+    "resolveJsonModule":true,
+    "noFallthroughCasesInSwitch":true,
+    "traceResolution":false,
+    "listEmittedFiles":false,
+    "listFiles":false,
+    "pretty":true,
+    "skipLibCheck":true,
+    "lib":["es5","es6","es7","es2017","es2019","dom"],
+    "typeRoots":["./types","./node_modules/@types"]
+  },
+  "include":["src/**/*","types/**/*"],
+  "exclude":["node_modules/**","config/server/**","src/**/*.test.tsx","src/**/*.test.ts"]
+}
